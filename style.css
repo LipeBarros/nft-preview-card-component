@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div{
+
+    border: 10px solid red;
+    padding: 50px;
+    border-radius: 15px;
+}
