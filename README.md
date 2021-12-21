@@ -1,4 +1,6 @@
 # NTF Preview Card Component
 ## Desafio Frontend Mentor
 
-![preview](https://user-images.githubusercontent.com/92649421/146855644-2b5eac0b-a514-4780-b2fc-0e52c3fafdb9.jpg)
+
+![image](https://user-images.githubusercontent.com/92649421/146856126-c96ad8a9-ab3e-4b49-986d-a6e3fc78a2ce.png)
+
