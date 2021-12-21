@@ -1,15 +1,106 @@
 @charset "UTF-8";
 
-body{
-    background-color: hsl(216, 50%, 16%);
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-div{
+body{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
 
-    border: 10px solid red;
-    padding: 50px;
-    border-radius: 15px;
+.container{
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background: hsl(216, 50%, 16%);
+    padding: 24px;
+    box-shadow: -2px 19px 20px 12px #0000004f;
+    border-radius: 12px;
+    width: 350px;
+    height: 595px;
+
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: 22px;
+    font-size: 14px;
+    
+}
+
+.foto{
+    border-radius: 8px;
+    width: 100%;
+    display: block;
+    margin-bottom: 25px;
+
+}
+
+.titulo{
+    font-weight: 600;
+    font-size: 22px;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.descricao{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18.2px;
+    line-height: 1.4;
+    display: block;
+    margin-bottom: 23px;
+}
+
+.pontuacao{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pontuacao img{
+    margin-right: 8px;
+}
+
+.tempo{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    font-size:  16.5px;
+}
+
+.tempo img{
+    margin-right: 8px;
+}
+
+.autor{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.avatar{
+    width: 33px;
+    height: 33px;
+    margin-right: 15px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+
+}
+
+spam{
+     color:hsl(215, 51%, 70%);
 }
